@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/bg-big.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-size: 10px;
+}
+
+.main-wrapper {
+  width: 85%;
+  height: 90%;
+  max-width: 1440px;
+  max-height: 1000px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+}
+
+div.nav .logo {
+  font-family: 'Abril Fatface';
+  font-size: 2.4em;
+  letter-spacing: -2px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: normal;
+  cursor: pointer;
+}
+
+div.nav .right-navigation {
+  font-family: 'Open Sans', 'arial', 'sans-serif';
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+div.nav .right-navigation ul {
+  list-style: none;
+}
+
+div.nav .right-navigation ul li {
+  display: inline-block;
+}
+
+div.nav .right-navigation ul li a {
+  letter-spacing: 2px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+div.nav .right-navigation ul li a:hover {
+  color: #e1e1e1;
+}
+
+div.nav .right-navigation ul li a.active {
+  color: #FCCA95;
+}
+
+div.nav .right-navigation ul li .cta-log {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px 30px;
+  margin-left: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+div.nav .right-navigation ul li .cta-log:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+.hero-area {
+  position: relative;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  height: 620px;
+  width: 100%;
+  max-height: 590px;
+  max-width: 1440px;
+}
+
+.hero-area .left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  max-width: 380px;
+}
+
+.hero-area .left h1 {
+  font-family: 'abril fatface', serif;
+  font-size: 80px;
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+
+.hero-area .left h2 {
+  font-family: 'open sans', 'arial', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.6em;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.hero-area .left p {
+  font-family: 'open sans', 'arial', sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 35px;
+  padding-bottom: 40px;
+}
+
+.hero-area .left .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-area .left .buttons .cta.shop {
+  background-color: #fff;
+  border: 1px solid white;
+  color: #F37074;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hero-area .left .buttons .cta.shop:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.hero-area .left .buttons .cta.sign {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.hero-area .left .buttons .cta.sign:hover {
+  background-color: #fff;
+  color: #F37074;
+}
+
+.hero-area .left .buttons button {
+  font-family: 'open sans', 'arial', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.hero-area .right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  height: 100%;
+}
+
+.hero-area .right .rectangle4 {
+  width: 530px;
+  height: 530px;
+  background-color: transparent;
+  border: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero-area .right .rectangle3 {
+  width: 530px;
+  height: 530px;
+  background-color: transparent;
+  border: 2px solid white;
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.hero-area .right .rectangle2 {
+  width: 530px;
+  height: 530px;
+  background-color: transparent;
+  border: 2px solid white;
+  position: absolute;
+  top: 4em;
+  right: 4em;
+}
+
+.hero-area .right .rectangle.photo {
+  width: 530px;
+  height: 530px;
+  background-image: url("../img/wine.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  border: 2px solid white;
+  position: absolute;
+  top: 6em;
+  right: 6em;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.social-media img {
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.social-media img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=style.css.map */
